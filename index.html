@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcasting</title>
+    <link rel="stylesheet" href="week8.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+            <form class="search-form" id="search-form">
+                <input type="search" placeholder="Enter a city..." class="search-input" id="search-input" required />
+                <input type="submit" value="search" class="submit-button">
+                <hr />
+        </header>
+
+
+        </p>
+        </form>
+        <main>
+            <div class="container">
+                <div class="forweather">
+
+                    <h1>Paris</h1>
+
+                    <div class="value">
+                        <P><span id="day">Sunday</span> <span id="hour"> 1</span>:<span id="minute">32</span></span>,
+                            <span id="weather-description">light rain</span>
+
+                            <br />
+                            Humidity: <span class="humidity" id="humidity">91%</span>, Wind: <span class="wind"
+                                id="wind">8.23km/h</span>
+                        </P>
+                    </div>
+                </div>
+                <div class="emogi">
+
+                    <p><span class="sun"><span id="emoji">🌞</span> <span class="numerical-value" id="numerical-value">
+                    23</span></span><sup class="degree">°C</sup></p>
+                </div>
+            </div>
+        <div class ="weather-forecast" id="forecast">   
+          
+        </div>
+    </main>
+        <hr />
+        <footer>
+            <p>
+                This project coded by <a href="#">Dasash Endalk</a>,
+                is <a href="https://github.com/Dasu1990">opene-sourced on GitHub</a> and <a
+                    href="https://app.netlify.com/teams/dasu1990/sites?order_by=desc">hosted on Netlify</a>
+            </p>
+        </footer>
+    </div>
+    <script src="week8.js"></script>
+</body>
+
+</html>

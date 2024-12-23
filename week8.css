@@ -1,0 +1,126 @@
+body {
+    background-color: whitesmoke;
+    font-family: "Roboto", serif;
+}
+
+.main-container {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.search-input {
+    background-color: whitesmoke;
+    width: 80%;
+    margin: 10px 0px;
+    padding: 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.submit-button {
+    padding: 15px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    font-size: 18px;
+}
+
+.search-form {
+    gap: 25px;
+}
+
+hr {
+    height: 0.4px;
+    background-color: rgb(238, 241, 240);
+    border: none;
+    margin-top: 20px;
+}
+
+.humidity,
+.wind {
+    color: red;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    line-height: 1.5;
+
+}
+
+.forweather {
+    text-align: left;
+}
+
+.emogi {
+    display: flex;
+    text-align: right;
+    font-size: 34px;
+    
+}
+
+.sun {
+    font-weight: bold;
+    font-size: 43px;
+}
+
+.value {
+    font-size: 18px;
+    color: rgba(39, 33, 66, 0.4)
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+}
+
+a {
+    color: blueviolet;
+}
+
+.degree {
+    font-size: 40px;
+
+}
+
+.numerical-value {
+    font-size: 68px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 48px;
+}
+.day{
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(39, 33, 66, 0.4);
+}
+.icon-img{
+    text-align: center;
+    margin-bottom: 10px;
+   width: 300px;
+}
+.temperature{
+    font-weight: bold;
+    color: pink;
+    text-align: center;
+    font-size: 24px;
+}
+.weather-forecast{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
